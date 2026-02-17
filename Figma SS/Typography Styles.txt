@@ -1,0 +1,78 @@
+I’ve been a fully self-supported entrepreneur for over 25 years.
+
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: justify;
+
+
+I’ve built service-based businesses from the ground up, navigated growth, slow seasons, pivots, and scale — and I know what it actually takes to turn ideas into income and businesses into something sustainable.
+
+font-family: Manrope;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: justify;
+
+
+Built by a, Not Just:
+
+font-family: Libre Franklin;
+font-weight: 400;
+font-style: Regular;
+font-size: 45px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 1%;
+#FFFFFF
+
+Business Owner, a Marketer:
+
+font-family: Libre Franklin;
+font-weight: 400;
+font-style: Regular;
+font-size: 45px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+#B89973
+box-shadow: 0px 4px 4px 0px #00000040;
+
+
+Soul Fire Creatrix:
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: justify;
+#414D60
+
+was created to give business owners the kind of support I wish I had earlier practical
+font-family: Manrope;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: justify;
+
+strategic, and grounded in real experience.
+font-family: Manrope;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
+#985A45

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Section — Standalone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    body {
+      font-family: 'Manrope', sans-serif;
+      background: #FFFFFF;
+      color: #414D60;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* === ABOUT SECTION === */
+    .about {
+      padding: 80px 0;
+      background: #FFFFFF;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 440px 1fr;
+      gap: 40px;
+      align-items: stretch;
+    }
+
+    /* Left text column — top aligned */
+    .about-text-left {
+      align-self: start;
+      padding-top: 20px;
+    }
+
+    .about-text-left .about-bold {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 150%;
+      text-align: left;
+      color: #414D60;
+      margin-bottom: 16px;
+    }
+
+    .about-text-left .about-medium {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 150%;
+      text-align: left;
+      color: #414D60;
+    }
+
+    /* Center image */
+    .about-image {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+      aspect-ratio: 2/3;
+    }
+
+    .about-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Dark gradient overlay for text readability */
+    .about-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.05) 35%,
+        rgba(0, 0, 0, 0.05) 65%,
+        rgba(0, 0, 0, 0.45) 100%
+      );
+      pointer-events: none;
+      border-radius: 24px;
+    }
+
+    /* Overlay text on image */
+    .about-image-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 48px 36px 40px;
+      pointer-events: none;
+    }
+
+    .about-overlay-top,
+    .about-overlay-bottom {
+      font-family: 'Libre Franklin', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 45px;
+      line-height: 120%;
+    }
+
+    .about-overlay-top {
+      margin-top: 0;
+    }
+
+    .about-overlay-bottom {
+      margin-bottom: 0;
+    }
+
+    .overlay-white {
+      color: #FFFFFF;
+      letter-spacing: 0.01em;
+    }
+
+    .overlay-gold {
+      color: #B89973;
+      letter-spacing: 0;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Right text column — bottom aligned */
+    .about-text-right {
+      align-self: end;
+      padding-bottom: 20px;
+    }
+
+    .about-text-right .about-medium {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 150%;
+      text-align: left;
+      color: #414D60;
+    }
+
+    .about-brand {
+      font-weight: 700;
+      color: #414D60;
+    }
+
+    .about-highlight {
+      color: #985A45;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text-left">
+          <p class="about-bold">I've been a fully self-supported entrepreneur for over 25 years.</p>
+          <p class="about-medium">I've built service-based businesses from the ground up, navigated growth, slow seasons, pivots, and scale — and I know what it actually takes to turn ideas into income and businesses into something sustainable.</p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.pexels.com/photos/6390668/pexels-photo-6390668.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Soul Fire Creatrix founder">
+          <div class="about-image-overlay">
+            <div class="about-overlay-top">
+              <span class="overlay-white">Built by a</span><br>
+              <span class="overlay-gold">Business Owner</span>
+            </div>
+            <div class="about-overlay-bottom">
+              <span class="overlay-white">Not Just</span><br>
+              <span class="overlay-gold">a Marketer</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-right">
+          <p class="about-medium"><strong class="about-brand">Soul Fire Creatrix</strong> was created to give business owners the kind of support I wish I had earlier practical, <span class="about-highlight">strategic, and grounded in real experience.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
