@@ -1,1 +1,1 @@
-Figma to Index.html
+Figma to Index.html for importing to wp
