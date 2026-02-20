@@ -1,1 +1,2 @@
-Figma to Index.html for importing to wp
+Figma to Index.html for importing to wordpress via Direct Import Method
+Also added a contributor
